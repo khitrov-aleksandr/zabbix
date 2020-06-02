@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>3.4</version>
+    <date>2020-06-02T07:43:17Z</date>
+    <groups>
+        <group>
+            <name>Templates</name>
+        </group>
+        <group>
+            <name>Templates Oracle</name>
+        </group>
+        <group>
+            <name>Templates Storage</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>Template HPp2000</template>
+            <name>Template HPp2000</name>
+            <description/>
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+                <group>
+                    <name>Templates Storage</name>
+                </group>
+            </groups>
+            <applications>
+                <application>
+                    <name>SNMP Traps</name>
+                </application>
+            </applications>
+            <items>
+                <item>
+                    <name>Informational SNMP trap</name>
+                    <type>17</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>snmptrap[1.3.6.1.4.1.11.2.51.0.3001]</key>
+                    <delay>0</delay>
+                    <history>90d</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>2</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SNMP Traps</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt>hh:mm:ss yyyy/MM/dd</logtimefmt>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Warning SNMP trap</name>
+                    <type>17</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>snmptrap[1.3.6.1.4.1.11.2.51.0.3002]</key>
+                    <delay>0</delay>
+                    <history>90d</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>2</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SNMP Traps</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt>hh:mm:ss yyyy/MM/dd</logtimefmt>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Error SNMP trap</name>
+                    <type>17</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>snmptrap[1.3.6.1.4.1.11.2.51.0.3003]</key>
+                    <delay>0</delay>
+                    <history>90d</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>2</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SNMP Traps</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt>hh:mm:ss yyyy/MM/dd</logtimefmt>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Critical Error SNMP trap</name>
+                    <type>17</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>snmptrap[1.3.6.1.4.1.11.2.51.0.3004]</key>
+                    <delay>0</delay>
+                    <history>90d</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>2</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SNMP Traps</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt>hh:mm:ss yyyy/MM/dd</logtimefmt>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+            </items>
+            <discovery_rules/>
+            <httptests/>
+            <macros/>
+            <templates>
+                <template>
+                    <name>Template ICMP Ping</name>
+                </template>
+            </templates>
+            <screens/>
+        </template>
+        <template>
+            <template>Template Oracle Status</template>
+            <name>Template Oracle Status</name>
+            <description/>
+            <groups>
+                <group>
+                    <name>Templates Oracle</name>
+                </group>
+            </groups>
+            <applications>
+                <application>
+                    <name>Oracle</name>
+                </application>
+            </applications>
+            <items>
+                <item>
+                    <name>Oracle status</name>
+                    <type>11</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>db.odbc.select[oracle_status,{$DSN}]</key>
+                    <delay>5m</delay>
+                    <history>1w</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>1</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params>SELECT STATUS FROM V$INSTANCE;</params>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username>{$OUSER}</username>
+                    <password>{$OPASSWORD}</password>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Oracle</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Oracle Status</name>
+                    </valuemap>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+            </items>
+            <discovery_rules/>
+            <httptests/>
+            <macros>
+                <macro>
+                    <macro>{$OPASSWORD}</macro>
+                    <value>zabbix</value>
+                </macro>
+                <macro>
+                    <macro>{$OUSER}</macro>
+                    <value>zabbix</value>
+                </macro>
+            </macros>
+            <templates/>
+            <screens/>
+        </template>
+    </templates>
+    <triggers>
+        <trigger>
+            <expression>{Template Oracle Status:db.odbc.select[oracle_status,{$DSN}].str(OPEN)}&lt;&gt;1</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>Bad Oracle status</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{Template HPp2000:snmptrap[1.3.6.1.4.1.11.2.51.0.3004].nodata(1m)}=0</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>Critical Error SNMP trap</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{Template HPp2000:snmptrap[1.3.6.1.4.1.11.2.51.0.3003].nodata(1m)}=0</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>Error SNMP trap</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{Template HPp2000:snmptrap[1.3.6.1.4.1.11.2.51.0.3001].nodata(1m)}=0</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>Informational SNMP trap</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>1</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{Template Oracle Status:db.odbc.select[oracle_status,{$DSN}].nodata(900)}=1</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>Unknown Oracle status</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{Template HPp2000:snmptrap[1.3.6.1.4.1.11.2.51.0.3002].nodata(1m)}=0</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>Warning SNMP trap</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+    </triggers>
+    <value_maps>
+        <value_map>
+            <name>Oracle Status</name>
+            <mappings>
+                <mapping>
+                    <value>OPEN</value>
+                    <newvalue>Ok</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
+</zabbix_export>
